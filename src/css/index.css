@@ -51,15 +51,18 @@ main {
 }
 .content h1 {
   position: absolute;
-  border: 10px solid blue;
   text-align: center;
+  width: 50vw;
 }
 .content-body {
   position: absolute;
-  top: 160px;
+  top: 20vh;
+  left: 25vw;
+  right: 25vw;
   font-family: Impact, fantasy;
   text-align: center;
   color: white;
+  width: 50vw;
 }
 .content-quote {
   font-family: "Satisfy", cursive;
@@ -70,6 +73,10 @@ main {
   text-shadow: 1px 1px 2px black;
   font-size: 1.5em;
   text-align: center;
+}
+p {
+  position: absolute;
+  width: 100vw;
 }
 /* footer */
 footer {
