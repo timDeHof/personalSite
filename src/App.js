@@ -1,17 +1,12 @@
 import React from "react";
 import "./css/index.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div classNameName="App">
-      <header>
-        <h1 className="name">Timothy Tyler DeHof</h1>
-        <nav className="links">
-          <a href="index.html">HOME</a>
-          <a href="about.html">ABOUT</a>
-          <a href="portfolio.html">PORTFOLIO</a>
-        </nav>
-      </header>
+      <Header />
       <main>
         <div className="content">
           <h1 className="content-header">Developer, Engineer, Life-Learner</h1>
@@ -32,40 +27,7 @@ function App() {
           </div>
         </div>
       </main>
-      <footer>
-        <nav className="social-media">
-          <a className="sm sm-facebook" href="https://www.facebook.com/">
-            <img
-              src={require("./images/facebook logo_icon.png")}
-              alt="facebook icon"
-            />
-          </a>
-          <a className="sm sm-twitter" href="https://www.twitter.com/">
-            <img
-              src={require("./images/twitter logo_icon.png")}
-              alt="twitter icon"
-            />
-          </a>
-          <a className="sm sm-linkedin" href="https://www.linkedin.com/">
-            <img
-              src={require("./images/linkedin logo_icon.png")}
-              alt="linkedin icon"
-            />
-          </a>
-          <a className="sm sm-instagram" href="https://www.instagram.com/">
-            <img
-              src={require("./images/instagram logo_icon.png")}
-              alt="instagram icon"
-            />
-          </a>
-          <a className="sm sm-youtube" href="https://www.youtube.com/">
-            <img
-              src={require("./images/youtube logo_icon.png")}
-              alt="youtube icon"
-            />
-          </a>
-        </nav>
-      </footer>
+      <Footer />
     </div>
   );
 }
