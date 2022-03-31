@@ -1,0 +1,44 @@
+body {
+  margin: 100px auto;
+}
+
+.cards {
+  width: 500px;
+  border: 1px solid red;
+  margin: auto;
+  text-align: center;
+}
+
+.card {
+  background-color: silver;
+  border-radius: 10%;
+  width: 460px;
+  height: 200px;
+  margin: 20px;
+}
+
+.card-header {
+  background-color: powderblue;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  position: static;
+  text-align: left;
+}
+
+.card-image {
+  background-color: royalblue;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 30px;
+  left: 12px;
+}
+
+.card-body {
+  background-color: salmon;
+  position: relative;
+  width: 300px;
+  height: 150px;
+  top: -85px;
+  left: 128px;
+}
